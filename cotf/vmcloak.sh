@@ -1,3 +1,5 @@
+	virtualenv ~/cuckoo
+	. ~/cuckoo/bin/activate
 	pip install git+https://github.com/gussj/vmcloak.git
 	vmcloak-vboxnet0
 	vmcloak init --verbose --win7x64 win7x64base --cpus 2 --ramsize 2048
