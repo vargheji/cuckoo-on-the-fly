@@ -11,7 +11,7 @@
 	pip install --upgrade pip
 	pip install pillow
 	pip install --upgrade pillow
-	sudo su cuckoo
+	#sudo su cuckoo #commenting because it's already in the same user
 	virtualenv ~/cuckoo
 	. ~/cuckoo/bin/activate
 	pip install -U cuckoo
